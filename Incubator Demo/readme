@@ -1,0 +1,24 @@
+PINS in arduino:
+
+#define DHT_PIN 2       // Replace with your DHT sensor pin
+#define DHT_TYPE DHT11  // Use DHT11, DHT21, or DHT22 depending on your sensor
+#define FAN_PIN 8       // Replace with the pin connected to the fan relay
+#define LED_PIN 9       // Replace with the pin connected to the LED
+
+
+
+lcd(12, 11, 5, 4, 3, 2); // Initialize the LCD with the appropriate pins
+
+
+
+Requirements:
+
+
+arduino
+lcd display 16*2
+2 -relay module
+Stepper motor(s)
+DRV8825 or A4988 stepper motor driver(s)
+
+boards
+jumpers
